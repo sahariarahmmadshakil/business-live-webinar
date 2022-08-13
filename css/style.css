@@ -1,0 +1,75 @@
+
+@font-face {
+    src: url(../font/BasicCommercialLT-Black.ttf);
+    font-family: basic-commercial-bold;
+}
+@font-face {
+    src: url(../font/BasicCommercialLT-Roman.ttf);
+    font-family: basic-commercial-light;
+}
+
+
+/* creating a4 size  */
+.page {
+    background: var(--white);
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: var(--pageShadow);
+    background-color: #ffffff;
+}
+
+.page[size="page-size"] {
+    width: 8.5in;
+    height: 20in;
+    overflow: hidden;
+    background-image: url(../images/background.svg);
+}
+main{
+    margin: 0px 20px;
+}
+.top-text{
+    display: flex;
+    justify-content: space-between;
+    height: 325px;
+
+}
+
+.quotes-area{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.quotes-area-content-1{
+    font-size: 10.5px;
+    width: 300px;
+}
+.quotes-area-content-2{
+    font-size: 10.5px;
+    text-align: right;
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* common white color  */
+.color-white{
+color: #ffffff;
+}
