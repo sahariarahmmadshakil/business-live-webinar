@@ -31,7 +31,7 @@ main{
 .top-text{
     display: flex;
     justify-content: space-between;
-    height: 325px;
+    height: 320px;
 
 }
 
@@ -42,15 +42,23 @@ main{
 }
 
 .quotes-area-content-1{
-    font-size: 10.5px;
+    font-size: 13.5px;
     width: 300px;
+    margin-top: 74px;
+    margin-left: 30px;
 }
 .quotes-area-content-2{
-    font-size: 10.5px;
+    font-size: 13.5px;
     text-align: right;
+    margin-top: 2px;
+    margin-right: 22px;
     width: 300px;
 }
 
+.btn-area{
+    text-align: center;
+    margin-top: 290px;
+}
 
 
 
