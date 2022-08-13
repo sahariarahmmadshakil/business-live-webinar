@@ -55,12 +55,20 @@ main{
     width: 300px;
 }
 
+
+
+.book-main-area{
+    height: 500px;
+}
 .btn-area{
     text-align: center;
     margin-top: 290px;
 }
 
-
+.book-area{
+    float: right;
+    text-align: right;
+}
 
 
 
