@@ -10,8 +10,16 @@
 .bebas-neue{
     font-family: 'Bebas Neue', cursive;
 }
+.cerebri{
+    font-family: 'Cerebri Sans', sans-serif;
+                                                
+}
+.montserrat{
+font-family: 'Montserrat', sans-serif;
+}
 
-/* creating a4 size  */
+
+/* creating  size  */
 .page {
     background: var(--white);
     display: block;
@@ -27,6 +35,18 @@
     overflow: hidden;
     background-image: url(../images/background.svg);
 }
+/* common white color  */
+.color-white{
+    color: #ffffff;
+    }
+
+
+
+
+
+
+
+
 main{
     margin: 0px 20px;
 }
@@ -107,13 +127,37 @@ color: #ffffff;
 
 
 
-
-
-
-
-
-
-/* common white color  */
-.color-white{
-color: #ffffff;
+/* last section  */
+.ceo-area{
+    text-align: center;
+    font-size: 18.5px;
 }
+
+.footer-heading{
+    display: flex;
+    margin-top: 50px;
+}
+
+.motivate{
+    width: 300px;
+    height: 470px;
+}
+.motivate >p{
+    padding-top: 18px;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 95px;
+    line-height: 95px;
+}
+.motivate-discription{
+    font-size: 12px;
+}
+
+.new-book{
+    font-size: 13px;
+    margin-left: 24px;
+}
+
+
+
+
