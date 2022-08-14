@@ -96,10 +96,14 @@ color: #ffffff;
 /* Middle area  */
 #wierd-philosophy{
     font-size: 52px;
-    margin-top: 28px;
+    margin-top: 20px;
+    line-height: 56px;
 }
 
-
+.book-area-discription{
+    margin-top: -35px;
+    font-size: 15px;
+}
 
 
 
