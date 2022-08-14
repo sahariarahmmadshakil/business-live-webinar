@@ -1,13 +1,15 @@
 
-@font-face {
-    src: url(../font/BasicCommercialLT-Black.ttf);
-    font-family: basic-commercial-bold;
+/* font-style  */
+.open-sans{
+    font-family: 'Open Sans', sans-serif;
 }
-@font-face {
-    src: url(../font/BasicCommercialLT-Roman.ttf);
-    font-family: basic-commercial-light;
+.roboto-consensed{
+    font-family: 'Jost', sans-serif;
 }
 
+.bebas-neue{
+    font-family: 'Bebas Neue', cursive;
+}
 
 /* creating a4 size  */
 .page {
@@ -42,38 +44,60 @@ main{
 }
 
 .quotes-area-content-1{
-    font-size: 13.5px;
+    font-size: 12px;
     width: 300px;
     margin-top: 74px;
     margin-left: 30px;
 }
 .quotes-area-content-2{
-    font-size: 13.5px;
+    font-size: 12px;
     text-align: right;
     margin-top: 2px;
     margin-right: 22px;
     width: 300px;
 }
 
+.btn-area >p{
+    text-align: center;
+}
 
+/* Book to add area  */
+.book-todd{
+font-size: 29px;
+font-weight: 600;
+margin-top: 283px;
+margin-left: 10px;
+
+}
+.book-todd >a{
+text-decoration: none;
+color: #ffffff;
+}
+
+.to-do-web-address{
+    margin-top: -17px;
+    font-size: 11px;
+    margin-left: 12px;
+}
 
 .book-main-area{
     height: 500px;
 }
-.btn-area{
-    text-align: center;
-    margin-top: 290px;
-}
+
 
 .book-area{
     float: right;
     text-align: right;
+    margin-top: -70px;
 }
 
+/* ==================================== */
 
-
-
-
+/* Middle area  */
+#wierd-philosophy{
+    font-size: 52px;
+    margin-top: 28px;
+}
 
 
 
