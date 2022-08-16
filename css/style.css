@@ -33,7 +33,8 @@ font-family: 'Montserrat', sans-serif;
     width: 8.5in;
     height: 20in;
     overflow: hidden;
-    background-image: url(../images/background.svg);
+    background-image: url(../images/background-new.svg);
+    background-size: cover;
 }
 /* common white color  */
 .color-white{
@@ -85,7 +86,7 @@ main{
 .book-todd{
 font-size: 29px;
 font-weight: 600;
-margin-top: 283px;
+margin-top: 150px;
 margin-left: 10px;
 
 }
@@ -101,17 +102,31 @@ color: #ffffff;
 }
 
 .book-main-area{
-    height: 500px;
+    height: 435px;
 }
 
 
 .book-area{
     float: right;
     text-align: right;
-    margin-top: -70px;
+    margin-top: -40px;
 }
 
 /* ==================================== */
+
+/* video area  */
+
+.video-area{
+    height: 275px;
+}
+.video-content{
+    height: 215px;
+    width: 417px;
+    background-color: aqua;
+    /* margin: 0 auto; */
+    margin-left: 176px;
+    margin-top: 20px;
+}
 
 /* Middle area  */
 #wierd-philosophy{
@@ -135,19 +150,18 @@ color: #ffffff;
 
 .footer-heading{
     display: flex;
-    margin-top: 50px;
 }
 
 .motivate{
     width: 300px;
-    height: 470px;
+    height: 410px;
 }
 .motivate >p{
-    padding-top: 18px;
+    padding-top: 10px;
     margin-top: 0px;
     margin-left: 10px;
-    font-size: 95px;
-    line-height: 95px;
+    font-size: 80px;
+    line-height: 80px;
 }
 .motivate-discription{
     font-size: 12px;
